@@ -26,13 +26,13 @@ button {
 .btn{
     border-radius: 0;
     background: rgb(255, 0, 0);
-    border: 4px solid black;
 }
 .btn:hover{
     border-radius: 0;
     background: rgb(255, 0, 0);
     color: black;
     border: none;
+    border: 4px solid black;
 }
 
 .level {
