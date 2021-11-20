@@ -98,7 +98,7 @@ body {
 }
 
 .game:hover {
-  /* background-color: rgb(248, 103, 103); */
+  background-color: rgb(0 ,100,0); 
   border-radius: 20%;
 }
 
