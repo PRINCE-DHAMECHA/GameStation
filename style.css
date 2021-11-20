@@ -97,11 +97,6 @@ body {
   justify-content: center;
 }
 
-.game:hover {
-  background-color: #fa305c; 
-  border-radius: 20%;
-}
-
 .gameimg {
   height: 18vh;
   width: 18vh;
@@ -109,8 +104,9 @@ body {
 }
 
 .game:hover {
-  background-color: rgb(94, 252, 73);
+  background-color: #fa305c; 
   color: black;
+  border-radius: 20%;
 }
 
 .gameimg img {
