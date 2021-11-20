@@ -125,6 +125,9 @@
     .row{
         font-size: large;
     }
+    #home{
+        display:none;
+    }
 }
 @media screen and (max-width:560px) {
     .gameinfo{
@@ -180,5 +183,8 @@
     
     .bb-0 {
         border-bottom: 0;
+    }
+    #home{
+        display:none;
     }
 }
