@@ -22,12 +22,10 @@ const checkWin = () => {
   ];
   count++;
   if (count == 9) {
-    if (!isgameover) {
-      document.getElementsByClassName("info")[0].innerText = "DRAW";
-    }
+    isgameover=true;
+    document.getElementsByClassName("info")[0].innerText = "DRAW";
   }
   win.forEach((e) => {
-    if (!isgameover) {
       if (
         boxtexts[e[0]].innerText === boxtexts[e[1]].innerText &&
         boxtexts[e[2]].innerText === boxtexts[e[1]].innerText &&
@@ -53,7 +51,6 @@ const checkWin = () => {
         }vw,${e[4]}vw) rotate(${e[5]}deg)`;
         document.querySelector(".line").style.width = "29vw";
       }
-    }
   });
 };
 
